@@ -1,0 +1,12 @@
+*.zip*
+*.7z*
+*.exe
+*.dll
+*.pdb
+*.ucas
+*.utoc
+*.pak
+UserData/
+Engine/
+KOTOR_UE5/
+Packaged/
