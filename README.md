@@ -3,7 +3,7 @@
 This repository hosts packaged Windows test releases and tester instructions.
 Unreal Editor and the Unreal project files are not required to play.
 
-**Build 9596 is being validated. Download links will be added when startup checks and archive verification finish.**
+**Build 9619 is being prepared. Download links will be added after the open-door destination-label check and archive verification finish.**
 
 Use the Releases page for the game downloads. GitHub’s **Code → Download ZIP** contains only this repository’s instructions and helper files.
 
