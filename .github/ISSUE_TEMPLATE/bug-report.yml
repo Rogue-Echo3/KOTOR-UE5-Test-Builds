@@ -1,12 +1,12 @@
 name: Game bug report
 description: Report a problem in a packaged Windows playtest.
-title: "[9596] "
+title: "[Bug] "
 body:
   - type: input
     id: build
     attributes:
       label: Build number
-      placeholder: "9596"
+      placeholder: "For example: 9635 (use your downloaded release number)"
     validations:
       required: true
   - type: input

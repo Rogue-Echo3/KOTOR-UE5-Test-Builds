@@ -1,15 +1,24 @@
 # KOTOR UE5 — Windows Playtest Builds
 
-This repository hosts packaged Windows test releases and tester instructions. Unreal Editor and project source files are not required to play.
+Experimental Windows playtests of a fan-made Star Wars: Knights of the Old Republic recreation in Unreal Engine 5. Unreal Editor and project source files are not required.
 
-**[Download Windows TEST build 9635](https://github.com/Rogue-Echo3/KOTOR-UE5-Test-Builds/releases/tag/test-9635)**
+## Download and play
 
-Start with the small **[Download Helper ZIP](https://github.com/Rogue-Echo3/KOTOR-UE5-Test-Builds/releases/download/test-9635/Download-Helper-9635.zip)**. The packaged startup, content-inclusion, archive and server checksum checks passed.
+Latest: **[TEST build 9635](https://github.com/Rogue-Echo3/KOTOR-UE5-Test-Builds/releases/tag/test-9635)**
 
-Download **Download-Helper-9635.zip**, extract it into a writable folder, then double-click **Download KOTOR Test.cmd**. The helper downloads and checks the game, combines the parts and extracts it. Start with **Start KOTOR Test.cmd** in the resulting game folder. Keep the entire folder together and allow about 15 GB of free space.
+1. Download **[Download-Helper-9635.zip](https://github.com/Rogue-Echo3/KOTOR-UE5-Test-Builds/releases/download/test-9635/Download-Helper-9635.zip)**.
+2. Extract the helper into a writable folder with about 15 GB of free space.
+3. Double-click **Download KOTOR Test.cmd**. It downloads, checks, combines and extracts the game files.
+4. Open the resulting game folder and run **Start KOTOR Test.cmd**. Keep the entire game folder together.
 
-Use **Releases** for game downloads. GitHub’s **Code → Download ZIP** contains instructions and helper files, not the game.
+Use **Releases** for game downloads. **Code → Download ZIP** contains instructions and helpers, not the game.
 
-These are experimental test builds. Campaign content is included, but a full uninterrupted playthrough, every quest branch and every control have not been verified.
+## Testing status
 
-Report bugs in **Issues** with the build number, area, steps and result. Screenshots/video, a save from before the issue and the latest log are useful. Saves and logs are under the game folder’s `UserData/Saved` directory. Do not upload personal information or credentials.
+Build 9635 passed packaged startup, changed-content inclusion, archive and server checksum checks. Campaign content is included, but a full uninterrupted playthrough, every quest branch and every control have not been verified. These are experimental test builds.
+
+## Report a bug
+
+Use the **[bug-report form](https://github.com/Rogue-Echo3/KOTOR-UE5-Test-Builds/issues/new?template=bug-report.yml)**. Include your build number, area, steps to reproduce, expected result and actual result.
+
+Screenshots/video, a save from before the issue and the latest log are useful. Saves are under `UserData/Saved/SaveGames`; logs are under `UserData/Saved/Logs` in the game folder. Remove personal information and credentials before uploading files.
