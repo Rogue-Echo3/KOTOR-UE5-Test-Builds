@@ -2,9 +2,11 @@
 
 This repository hosts packaged Windows test releases and tester instructions. Unreal Editor and project source files are not required to play.
 
-**Build 9635 is being uploaded. The download will be announced here after the upload is verified.**
+**[Download Windows TEST build 9635](https://github.com/Rogue-Echo3/KOTOR-UE5-Test-Builds/releases/tag/test-9635)**
 
-When the release is available, download **Download-Helper-9635.zip**, extract it into a writable folder, then double-click **Download KOTOR Test.cmd**. The helper downloads and checks the game, combines the parts and extracts it. Start with **Start KOTOR Test.cmd** in the resulting game folder. Keep the entire folder together and allow about 15 GB of free space.
+Start with the small **[Download Helper ZIP](https://github.com/Rogue-Echo3/KOTOR-UE5-Test-Builds/releases/download/test-9635/Download-Helper-9635.zip)**. The packaged startup, content-inclusion, archive and server checksum checks passed.
+
+Download **Download-Helper-9635.zip**, extract it into a writable folder, then double-click **Download KOTOR Test.cmd**. The helper downloads and checks the game, combines the parts and extracts it. Start with **Start KOTOR Test.cmd** in the resulting game folder. Keep the entire folder together and allow about 15 GB of free space.
 
 Use **Releases** for game downloads. GitHub’s **Code → Download ZIP** contains instructions and helper files, not the game.
 
