@@ -2,16 +2,16 @@ $ErrorActionPreference='Stop'
 $ProgressPreference='SilentlyContinue'
 function Get-KotorSha($path){$stream=[IO.File]::OpenRead($path);$sha=[Security.Cryptography.SHA256]::Create();try{return ([BitConverter]::ToString($sha.ComputeHash($stream))).Replace('-','').ToLowerInvariant()}finally{$stream.Dispose();$sha.Dispose()}}
 try {
- $version='9735'
+ $version='9767'
  $base=[IO.Path]::GetFullPath($env:KOTOR_BUILD_DOWNLOAD_ROOT)
- $cache=Join-Path $base 'KOTOR-9735-Downloads'
+ $cache=Join-Path $base 'KOTOR-9767-Downloads'
  New-Item -ItemType Directory -Path $cache -Force | Out-Null
- Write-Host 'KOTOR UE5 Windows test build 9735'
+ Write-Host 'KOTOR UE5 Windows test build 9767'
  Write-Host 'Downloading the release manifest from GitHub...'
- $manifest=Invoke-RestMethod -Uri 'https://github.com/Rogue-Echo3/KOTOR-UE5-Test-Builds/releases/download/test-9735/build-manifest-9735.json'
- if($manifest.build -ne $version -or $manifest.zip_name -ne 'KOTOR-UE5-Test-9735-Windows.zip' -or $manifest.parts.Count -lt 1 -or $manifest.parts.Count -gt 20){throw 'Unexpected release manifest.'}
+ $manifest=Invoke-RestMethod -Uri 'https://github.com/Rogue-Echo3/KOTOR-UE5-Test-Builds/releases/download/test-9767/build-manifest-9767.json'
+ if($manifest.build -ne $version -or $manifest.zip_name -ne 'KOTOR-UE5-Test-9767-Windows.zip' -or $manifest.parts.Count -lt 1 -or $manifest.parts.Count -gt 20){throw 'Unexpected release manifest.'}
  foreach($part in $manifest.parts){
-  if([IO.Path]::GetFileName($part.name) -ne $part.name -or $part.name -notmatch '^KOTOR-UE5-Test-9735-Windows\.zip\.\d{3}$' -or $part.url -notlike 'https://github.com/Rogue-Echo3/KOTOR-UE5-Test-Builds/releases/download/test-9735/*'){throw 'Unexpected download filename or location.'}
+  if([IO.Path]::GetFileName($part.name) -ne $part.name -or $part.name -notmatch '^KOTOR-UE5-Test-9767-Windows\.zip\.\d{3}$' -or $part.url -notlike 'https://github.com/Rogue-Echo3/KOTOR-UE5-Test-Builds/releases/download/test-9767/*'){throw 'Unexpected download filename or location.'}
   $file=Join-Path $cache $part.name
   $valid=(Test-Path -LiteralPath $file) -and (Get-Item -LiteralPath $file).Length -eq $part.bytes
   if($valid){$valid=(Get-KotorSha $file) -eq $part.sha256}
@@ -33,11 +33,11 @@ try {
   Write-Host 'Verifying the complete ZIP...'
   if((Get-KotorSha $zip) -ne $manifest.zip_sha256){throw 'Complete ZIP checksum failed.'}
  }
- $destination=Join-Path $base 'Play-9735'
- $game=Join-Path $destination 'KOTOR-UE5-Test-9735'
- $complete=Join-Path $destination '.extraction-complete-9735.txt'
+ $destination=Join-Path $base 'Play-9767'
+ $game=Join-Path $destination 'KOTOR-UE5-Test-9767'
+ $complete=Join-Path $destination '.extraction-complete-9767.txt'
  if(!(Test-Path -LiteralPath $complete)){
-  if(Test-Path -LiteralPath $destination){throw 'Play-9735 already exists without a completed extraction. Put this helper in a new empty folder and run it there; your existing files have not been changed.'}
+  if(Test-Path -LiteralPath $destination){throw 'Play-9767 already exists without a completed extraction. Put this helper in a new empty folder and run it there; your existing files have not been changed.'}
   Write-Host 'Extracting the game. This may take a few minutes...'
   Add-Type -AssemblyName System.IO.Compression.FileSystem
   [IO.Compression.ZipFile]::ExtractToDirectory($zip,$destination)
