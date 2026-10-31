@@ -6,7 +6,7 @@ body:
     id: build
     attributes:
       label: Build number
-      placeholder: "For example: 9635 (use your downloaded release number)"
+      placeholder: "For example: 9735 (use your downloaded release number)"
     validations:
       required: true
   - type: input

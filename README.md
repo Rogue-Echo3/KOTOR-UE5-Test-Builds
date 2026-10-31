@@ -4,21 +4,23 @@ Experimental Windows playtests of a fan-made Star Wars: Knights of the Old Repub
 
 ## Download and play
 
-Latest: **[TEST build 9635](https://github.com/Rogue-Echo3/KOTOR-UE5-Test-Builds/releases/tag/test-9635)**
+Latest: **[TEST build9735](https://github.com/Rogue-Echo3/KOTOR-UE5-Test-Builds/releases/tag/test-9735)**
 
-1. Download **[Download-Helper-9635.zip](https://github.com/Rogue-Echo3/KOTOR-UE5-Test-Builds/releases/download/test-9635/Download-Helper-9635.zip)**.
-2. Extract the helper into a writable folder with about 15 GB of free space.
-3. Double-click **Download KOTOR Test.cmd**. It downloads, checks, combines and extracts the game files.
-4. Open the resulting game folder and run **Start KOTOR Test.cmd**. Keep the entire game folder together.
+1. Download **[Download-Helper-9735.zip](https://github.com/Rogue-Echo3/KOTOR-UE5-Test-Builds/releases/download/test-9735/Download-Helper-9735.zip)**.
+2. Extract the helper into a writable folder with about **16GB free** for its download cache, combined ZIP and extracted game.
+3. Run **Download KOTOR Test.cmd**. It downloads, checks, combines and extracts the files.
+4. Open the resulting game folder and run **Start KOTOR Test.cmd**. Keep the full folder together.
 
-Use **Releases** for game downloads. **Code → Download ZIP** contains instructions and helpers, not the game.
+Use Releases for game downloads. Code → Download ZIP contains instructions and helpers, not the game.
 
-## Testing status
+## This build
 
-Build 9635 passed packaged startup, changed-content inclusion, archive and server checksum checks. Campaign content is included, but a full uninterrupted playthrough, every quest branch and every control have not been verified. These are experimental test builds.
+Calo's scripted weapon hands and ranged attacks; Sith-disguise facing; single/dual-pistol and rifle movement grips; stationary X-flourish handling; North Apartments city windows; portrait fitting; reversed item icons; and the Lower City sealed-strongbox dialogue/unlock/loot path.
 
-## Report a bug
+Packaged natural startup, targeted original quest/cutscene checks, isolated physics movement/flourish checks, representative portraits, content inclusion and archive/server integrity checks passed. Campaign content is included; a full uninterrupted playthrough, every branch/control, normal navigation on every rig, audio quality and other computers' performance are not fully verified.
 
-Use the **[bug-report form](https://github.com/Rogue-Echo3/KOTOR-UE5-Test-Builds/issues/new?template=bug-report.yml)**. Include your build number, area, steps to reproduce, expected result and actual result.
+## Saves and bug reports
 
-Screenshots/video, a save from before the issue and the latest log are useful. Saves are under `UserData/Saved/SaveGames`; logs are under `UserData/Saved/Logs` in the game folder. Remove personal information and credentials before uploading files.
+To retain progress, copy UserData/Saved/SaveGames from your old game folder into the matching new UserData/Saved folder. Keep a copy of the old folder.
+
+Use the **[bug-report form](https://github.com/Rogue-Echo3/KOTOR-UE5-Test-Builds/issues/new?template=bug-report.yml)**. Include your build, area, actions and result. Screenshots/video, a save from before the issue and the latest log help. Logs are under UserData/Saved/Logs. Remove private information before uploading.
