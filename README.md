@@ -6,9 +6,9 @@ Experimental Windows playtests of a fan-made Knights of the Old Republic recreat
 
 ## Download and play
 
-Latest: **[TEST9783](https://github.com/Rogue-Echo3/KOTOR-UE5-Test-Builds/releases/tag/test-9783)**
+Latest: **[TEST9784](https://github.com/Rogue-Echo3/KOTOR-UE5-Test-Builds/releases/tag/test-9784)**
 
-1. Download [Download-Helper-9783.zip](https://github.com/Rogue-Echo3/KOTOR-UE5-Test-Builds/releases/download/test-9783/Download-Helper-9783.zip).
+1. Download [Download-Helper-9784.zip](https://github.com/Rogue-Echo3/KOTOR-UE5-Test-Builds/releases/download/test-9784/Download-Helper-9784.zip).
 2. Extract the helper into a writable folder with about **64 GB free**.
 3. Run **Download KOTOR Test.cmd**. It downloads, verifies, joins and extracts the game.
 4. Run **KOTOR UE5 Playtest.exe** from the resulting game folder. Keep its files together.
@@ -17,7 +17,7 @@ Use Releases for game downloads. Code → Download ZIP contains instructions and
 
 ## This build
 
-TEST9783 updates the Endar Spire duel and shared melee animations, restores nine companion portraits, and fixes character creation feat scrolling. The launcher uses large, high-contrast buttons and checks GitHub for available releases. The in-game Exit to Main Menu button returns to the title screen, the character menu uses translucent level-up buttons, and the workbench places upgrade components beside the item preview.
+TEST9784 adds saber clash flashes, the Movies replay gallery, sharper Malak textures, blue level-up button borders, and Endar Spire droid and enemy sight fixes. The launcher uses large, high-contrast buttons and checks GitHub for available releases. The in-game Exit to Main Menu button returns to the title screen, the character menu uses translucent level-up buttons, and the workbench places upgrade components beside the item preview.
 
 **Escape** opens Options. **F4/F5** quicksave and quickload. Change bindings under Gameplay → Key Mapping.
 
@@ -27,7 +27,7 @@ Packaged checks covered the Endar duel and continuation, sixteen melee cases, fe
 
 Copy your old **UserData/Saved/SaveGames** into the matching new folder to retain progress. Keep the old folder as a backup. Personal saves and logs are excluded from downloads.
 
-Use the [bug-report form](https://github.com/Rogue-Echo3/KOTOR-UE5-Test-Builds/issues/new?template=bug-report.yml). Include TEST9783, area, steps and result, relevant screenshots/video and the latest log from UserData/Saved/Logs. Remove private information before uploading.
+Use the [bug-report form](https://github.com/Rogue-Echo3/KOTOR-UE5-Test-Builds/issues/new?template=bug-report.yml). Include TEST9784, area, steps and result, relevant screenshots/video and the latest log from UserData/Saved/Logs. Remove private information before uploading.
 
 ## Visual credits
 
