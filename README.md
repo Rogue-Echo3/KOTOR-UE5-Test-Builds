@@ -1,39 +1,56 @@
-# KOTOR UE5 — Windows Playtest Builds
+# KOTOR UE5 playtests
 
-Experimental Windows playtests of a fan-made Knights of the Old Republic recreation in Unreal Engine 5. Unreal Editor and project files are not required.
+Windows playtests of our KOTOR 1 project in Unreal Engine 5.8. This repository
+provides packaged game downloads and bug reporting; editable project files are
+kept in a separate private repository.
 
+## Latest build: TEST9790
 
+[Download TEST9790](https://github.com/Rogue-Echo3/KOTOR-UE5-Test-Builds/releases/tag/test-9790).
+The complete game package is split into numbered ZIP parts. For the easiest
+setup, download **Download-Helper-9790.zip** from that release, extract it into
+a new folder with at least 65 GB free, and run **Download KOTOR Test.cmd**.
+It downloads, verifies and extracts every part. Start **KOTOR UE5 Playtest.exe**
+or **Start KOTOR Test.cmd** in the extracted game folder.
 
-## Download and play
+Keep every ZIP part together if downloading manually. Do not extract a single
+part by itself. No Unreal Editor installation is needed to play this package.
 
-Latest: **[TEST9789](https://github.com/Rogue-Echo3/KOTOR-UE5-Test-Builds/releases/tag/test-9789)**
+## Changes to check
 
-1. Download [Download-Helper-9789.zip](https://github.com/Rogue-Echo3/KOTOR-UE5-Test-Builds/releases/download/test-9789/Download-Helper-9789.zip).
-2. Extract the helper into a writable folder with about **65 GB free**.
-3. Run **Download KOTOR Test.cmd**. It downloads, verifies, joins and extracts the game.
-4. Run **KOTOR UE5 Playtest.exe** from the resulting game folder. Keep its files together.
+- Defeated nonlethal Taris duelists return to their original friendly faction
+  and idle. Existing completed-duel story snapshots recover without changing
+  rewards or stopping an active rematch. Bendak's deathmatch remains separate.
+- Close Hutt dialogue shots frame the face rather than the side of the body.
+- Taris transition zones follow the displayed doorway width, including the
+  Upper City North/South connection. A physical clearance check excludes walls;
+  closed/moving doors remain blocked and destination banners require an open door.
 
-Use Releases for game downloads. Code → Download ZIP contains instructions and helpers.
+Seven targeted packaged checks passed, including an off-centre crossing with
+controlled Carth that preserved identity, credits and active party at arrival.
+These are scoped fixtures, not certification of a complete human playthrough.
+Civilian close-ups can still look soft or faceted. Please report other issues.
 
-## This build
-
-TEST9789 restores the second Security door as the boarding-scene trigger, protects its staged cast, improves automatic companion approach and hostile pursuit/opening pause, turns the actual post-duel troopers toward the party, and corrects the damaged droid’s entrance facing and door traversal. The yellow shadow-overflow overlay is hidden.
-
-**Escape** opens Options outside cutscenes. **Left-click** advances dialogue. R no longer resets the game. Left-click advances only the active dialogue line. **F4/F5** quicksave and quickload. Change bindings under Gameplay → Key Mapping.
-
-Nine targeted packaged checks passed, including scene recovery, checked combat approaches, closed-door sight, one opening combat pause, reinforcement facing, autonomous droid opening/crossing, and checkpoint write/load. These are scoped checks; campaign-wide verification remains open. Civilian close-ups can still look soft or faceted.
+**Escape** opens Options outside cutscenes. **Left-click** advances dialogue
+lines. R no longer resets the game. Use Gameplay → Key Mapping for bindings.
 
 ## Saves and bug reports
 
-Copy your old **UserData/Saved/SaveGames** into the matching new folder to retain progress. Keep the old folder as a backup. Personal saves and logs are excluded from downloads.
+To retain progress, copy your old **UserData/Saved/SaveGames** into the matching
+new game folder and keep your original copy. Personal saves and logs are excluded
+from release downloads.
 
-Use the [bug-report form](https://github.com/Rogue-Echo3/KOTOR-UE5-Test-Builds/issues/new?template=bug-report.yml). Include TEST9789, area, steps and result, relevant screenshots/video and the latest log from UserData/Saved/Logs. Remove private information before uploading.
+Use the [bug-report form](https://github.com/Rogue-Echo3/KOTOR-UE5-Test-Builds/issues/new?template=bug-report.yml).
+Include TEST9790, the area, steps, expected/actual behavior and screenshots or a
+short video. The latest log is in **UserData/Saved/Logs**. Remove private details
+before uploading it.
 
 ## Visual credits
 
-- [Revamped FX](https://deadlystream.com/files/file/2581-revamped-fx/), by **Olegkuz1997**.
+- [Revamped FX](https://deadlystream.com/files/file/2581-revamped-fx/), by Olegkuz1997.
+- [Vurt's KotOR Visual Resurgence](https://www.nexusmods.com/kotor/mods/1730), by vurt.
+- [KotOR 1 Remastered AI Upscaled Cutscenes](https://www.nexusmods.com/kotor/mods/1306), by Naelavok.
 
-- [Vurt's KotOR Visual Resurgence](https://www.nexusmods.com/kotor/mods/1730), by **vurt**.
-- [KotOR 1 Remastered AI Upscaled Cutscenes](https://www.nexusmods.com/kotor/mods/1306), by **Naelavok**.
-
-The project owner confirmed permission for integration and test distribution. This notice does not grant others a general redistribution license. See the packaged notices for details.
+The project owner confirmed permission for integration and test distribution.
+This notice does not grant others a general redistribution license. See the
+packaged notices for details.
