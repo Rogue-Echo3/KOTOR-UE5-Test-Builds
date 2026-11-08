@@ -17,7 +17,7 @@ Use Releases for game downloads. Code → Download ZIP contains instructions and
 
 ## This build
 
-TEST9789 restores the second Security door as the boarding-scene trigger, protects its staged cast, improves automatic companion approach and hostile pursuit/opening pause, turns the actual post-duel troopers toward the party, and corrects the damaged droid�s entrance facing and door traversal. The yellow shadow-overflow overlay is hidden.
+TEST9789 restores the second Security door as the boarding-scene trigger, protects its staged cast, improves automatic companion approach and hostile pursuit/opening pause, turns the actual post-duel troopers toward the party, and corrects the damaged droid’s entrance facing and door traversal. The yellow shadow-overflow overlay is hidden.
 
 **Escape** opens Options outside cutscenes. **Left-click** advances dialogue. R no longer resets the game. Left-click advances only the active dialogue line. **F4/F5** quicksave and quickload. Change bindings under Gameplay → Key Mapping.
 
