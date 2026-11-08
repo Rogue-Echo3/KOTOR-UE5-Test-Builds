@@ -6,9 +6,9 @@ Experimental Windows playtests of a fan-made Knights of the Old Republic recreat
 
 ## Download and play
 
-Latest: **[TEST9788](https://github.com/Rogue-Echo3/KOTOR-UE5-Test-Builds/releases/tag/test-9788)**
+Latest: **[TEST9789](https://github.com/Rogue-Echo3/KOTOR-UE5-Test-Builds/releases/tag/test-9789)**
 
-1. Download [Download-Helper-9788.zip](https://github.com/Rogue-Echo3/KOTOR-UE5-Test-Builds/releases/download/test-9788/Download-Helper-9788.zip).
+1. Download [Download-Helper-9789.zip](https://github.com/Rogue-Echo3/KOTOR-UE5-Test-Builds/releases/download/test-9789/Download-Helper-9789.zip).
 2. Extract the helper into a writable folder with about **65 GB free**.
 3. Run **Download KOTOR Test.cmd**. It downloads, verifies, joins and extracts the game.
 4. Run **KOTOR UE5 Playtest.exe** from the resulting game folder. Keep its files together.
@@ -17,17 +17,17 @@ Use Releases for game downloads. Code → Download ZIP contains instructions and
 
 ## This build
 
-TEST9788 fixes the first Endar Spire boarding scene, rolls back the new menu and preview smoke, and restores high-resolution Upper City civilian and Sith patrol carbine artwork.
+TEST9789 restores the second Security door as the boarding-scene trigger, protects its staged cast, improves automatic companion approach and hostile pursuit/opening pause, turns the actual post-duel troopers toward the party, and corrects the damaged droid�s entrance facing and door traversal. The yellow shadow-overflow overlay is hidden.
 
 **Escape** opens Options outside cutscenes. **Left-click** advances dialogue. R no longer resets the game. Left-click advances only the active dialogue line. **F4/F5** quicksave and quickload. Change bindings under Gameplay → Key Mapping.
 
-Packaged checks cover the first boarding scene and title menu. Civilian close-ups can still look soft or faceted. Campaign-wide verification remains open.
+Nine targeted packaged checks passed, including scene recovery, checked combat approaches, closed-door sight, one opening combat pause, reinforcement facing, autonomous droid opening/crossing, and checkpoint write/load. These are scoped checks; campaign-wide verification remains open. Civilian close-ups can still look soft or faceted.
 
 ## Saves and bug reports
 
 Copy your old **UserData/Saved/SaveGames** into the matching new folder to retain progress. Keep the old folder as a backup. Personal saves and logs are excluded from downloads.
 
-Use the [bug-report form](https://github.com/Rogue-Echo3/KOTOR-UE5-Test-Builds/issues/new?template=bug-report.yml). Include TEST9788, area, steps and result, relevant screenshots/video and the latest log from UserData/Saved/Logs. Remove private information before uploading.
+Use the [bug-report form](https://github.com/Rogue-Echo3/KOTOR-UE5-Test-Builds/issues/new?template=bug-report.yml). Include TEST9789, area, steps and result, relevant screenshots/video and the latest log from UserData/Saved/Logs. Remove private information before uploading.
 
 ## Visual credits
 
