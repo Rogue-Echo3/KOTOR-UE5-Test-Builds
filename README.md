@@ -10,7 +10,11 @@ kept in a separate private repository.
 The complete game package is split into numbered ZIP parts. For the easiest
 setup, download **Download-Helper-9790.zip** from that release, extract it into
 a new folder with at least 65 GB free, and run **Download KOTOR Test.cmd**.
-It downloads, verifies and extracts every part. Start **KOTOR UE5 Playtest.exe**
+It downloads, verifies and extracts every part, then checks every extracted file
+against the verified archive before automatically deleting the ZIP and numbered
+download parts. Allow about 65 GB temporarily during setup; the installed game
+uses about 22 GB afterward. Failed downloads or verification keep the archives
+for recovery. Your game, saves and unrelated files are never part of cleanup. Start **KOTOR UE5 Playtest.exe**
 or **Start KOTOR Test.cmd** in the extracted game folder.
 
 Keep every ZIP part together if downloading manually. Do not extract a single
@@ -32,7 +36,7 @@ These are scoped fixtures, not certification of a complete human playthrough.
 Civilian close-ups can still look soft or faceted. Please report other issues.
 
 **Escape** opens Options outside cutscenes. **Left-click** advances dialogue
-lines. R no longer resets the game. Use Gameplay → Key Mapping for bindings.
+lines. R no longer resets the game. Use Gameplay â†’ Key Mapping for bindings.
 
 ## Saves and bug reports
 
